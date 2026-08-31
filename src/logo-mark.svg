@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">رمز نهر</title>
+  <desc id="desc">حرف نون داخل شكل رملي بسيط يمثل نهر</desc>
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="#1d1a15"/>
+  <path d="M14 42c10-8 19 7 30-2 3-2 5-4 7-6" fill="none" stroke="#d8c3a3" stroke-width="6" stroke-linecap="round"/>
+  <text x="32" y="35" direction="rtl" text-anchor="middle" font-family="Arial, Tahoma, sans-serif" font-size="25" font-weight="800" fill="#fffdf8">ن</text>
+</svg>

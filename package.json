@@ -3,5 +3,7 @@
     "build": "node build.js",
     "check": "node scripts/check-site.js"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
 }

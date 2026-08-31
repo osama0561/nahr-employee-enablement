@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.join(__dirname, '..', 'public', 'index.html'), 'utf8');
 const css = fs.readFileSync(path.join(__dirname, '..', 'public', 'styles.css'), 'utf8');
-const must = ['<html lang="ar" dir="rtl">','meta name="description"','application/ld+json','من نخدم','القطاع الحكومي','القطاع الخاص','القطاع غير الربحي','نموذج الاحتياج','/logo-nahr.svg','/logo-mark.svg'];
+const must = ['<html lang="ar" dir="rtl">','meta name="description"','application/ld+json','من نخدم','القطاع الحكومي','القطاع الخاص','القطاع غير الربحي','نموذج الاحتياج','/logo-nahr-ai-header.png','/logo-mark.svg'];
 const forbidden = ['ملفات نهر','PowerPoint','Excel','Markdown','تحميل','lovable','v0.dev','bolt.new','✨','🚀','⚡'];
 let failed = false;
 for (const s of must) if (!html.includes(s)) { console.error('Missing:', s); failed = true; }

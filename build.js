@@ -5,7 +5,7 @@ const src = path.join(root, 'src');
 const out = path.join(root, 'public');
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
-for (const file of ['index.html','styles.css','script.js','logo-nahr.svg','logo-mark.svg']) {
+for (const file of ['index.html','styles.css','script.js','logo-nahr.svg','logo-mark.svg','logo-nahr-ai-header.png']) {
   fs.copyFileSync(path.join(src, file), path.join(out, file));
 }
 fs.writeFileSync(path.join(out, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: https://nahr-employee-enablement.vercel.app/sitemap.xml\n`);
